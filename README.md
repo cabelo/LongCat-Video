@@ -82,6 +82,9 @@ pip install flash_attn==2.7.4.post1 --no-build-isolation
 # install other requirements
 pip install -r requirements.txt
 
+pip install soundfile==0.13.1
+pip install 'tritonclient[all]==2.64.0'
+
 # install longcat-video-avatar requirements
 conda install -c conda-forge librosa
 conda install -c conda-forge ffmpeg
